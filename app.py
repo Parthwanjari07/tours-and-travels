@@ -14,8 +14,8 @@ def places():
 def contact():
     return render_template('contact.html')
 
-@app.route('/backup_data')
-def backup_data():
+@app.route('/contact2.html')
+def contact2():
     return render_template('contact2.html')
 
 if __name__ == '__main__':
