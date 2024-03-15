@@ -12,11 +12,7 @@ def places():
 
 @app.route('/contact')
 def contact():
-    recipients = [
-        {'access_key': 'c7b61e5e-e90c-4550-966d-09501ca9a413'},
-        {'access_key': 'f7a528e9-d257-4d81-8583-af838851cacc'}
-    ]
-    return render_template('contact.html', recipients=recipients)
+    return render_template('contact.html')
 
 @app.route('/contact2.html')
 def contact2():
