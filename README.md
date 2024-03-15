@@ -1,2 +1,7 @@
-# tours-and-travels
- tours and travels website using flask , jinja , html , css
+# Travel & Tourism Website
+ Using Flask, Jinja2, HTML & CSS
+
+ Members =>
+ i) Parth Wanjari
+ ii) Nihar Walawalkar
+ iii) Kushal Yadav
