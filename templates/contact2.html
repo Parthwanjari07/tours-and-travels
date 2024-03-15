@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='contact2.css') }}">
+</head>
+
+<body>
+    <div class="contact-container">
+        <form action="https://script.google.com/macros/s/AKfycbxIYT2wwZ-ts4MQUdGzTZJXGTtR9Dn-r652Vshwbz6KDKaqRPjZY3tZQ7pMBtIQsXgG/exec" method="POST" class="contact-left">
+            <div class="contact-left-title">
+                <h2>Get in touch</h2>
+                <hr>
+            </div>
+            <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+            <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+            <input type="phone" name="phone" placeholder="Contact Number" class="contact-inputs" required>
+            <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+            <button type="submit">Submit <img src="{{ url_for('static', filename='assets/arrow_icon.png') }}" alt=""></button>
+        </form>
+        <div class="contact-right">
+            <img src="{{ url_for('static', filename='assets/right_img.png') }}" alt="">
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='contact.css') }}">
+</head>
+
+<body>
+    <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <div class="contact-left-title">
+                <h2>Get in touch</h2>
+                <hr>
+            </div>
+            <input type="hidden" name="access_key" value="c7b61e5e-e90c-4550-966d-09501ca9a413">
+            <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+            <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+            <input type="phone" name="phone" placeholder="Contact Number" class="contact-inputs" required>
+            <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+            <button type="submit">Submit <img src="{{ url_for('static', filename='assets/arrow_icon.png') }}" alt=""></button>
+        </form>
+        <div class="contact-right">
+            <img src="{{ url_for('static', filename='assets/right_img.png') }}" alt="">
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='GoogleSheet.js') }}"></script>
+</body>
+
+</html>
