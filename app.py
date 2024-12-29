@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # A flask application with the app.py file
+=======
+# A flask application 
+>>>>>>> 578f500d7ddf87ff88b5a1df5fb68c15e54f8bcb
 
 from flask import Flask, render_template
 
