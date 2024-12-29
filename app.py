@@ -1,4 +1,4 @@
-# A flask application 
+# A flask application with the app.py file
 
 from flask import Flask, render_template
 
